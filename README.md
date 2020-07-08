@@ -22,7 +22,36 @@ was really exciting.
 After cloning the repo, download weight files from [here](https://drive.google.com/drive/folders/1cGwDaZqDcqYU7kDuEbMXa9TP3uDJRBR1) and place them in the `./psv` directory. These are the weights 
 of pretrained model of EdgeConnect and are required while program performs inpainting. 
 
-**You would require AWS credentials to run the program.** 
+**You would need AWS credentials to run the program.** 
 
-Once ready with credentials, type command **streamlit run app.py**  
+Now there are two ways to run the program.
+
+Through pickLang streamlit web app:-
+
+Once ready with credentials, type command **streamlit run app.py** 
 pickLang will open in your browser!!
+
+<img src='./Streamlit1.png' />
+<img src='./Streamlit2.png' />
+
+Through terminal via main.py:-
+
+Type command **python main.py --path (Image path) --sl (source language like en/es/it/fr) --tl (target language) --region_name (AWS region name)** for running in terminal only.
+
+NOTE: The Ouput images will get stored in Output Folder and not results folder.
+
+# Results
+
+<img src='./ResultsToShow/France.jpg' width='640' height= '480'>
+
+<img src='./ResultsToShow/FranceOut.jpg' width='640' height= '480'>
+
+<img src= './ResultsToShow/Rose.jpg' width='640' height= '480' >
+
+<img src= './ResultsToShow/RoseOut.jpg' width='640' height= '480'>
+
+# Credits
+
+Inpainting paper:  https://arxiv.org/pdf/1901.00212.pdf
+Official Inpainting code: https://github.com/knazeri/edge-connect
+AWS Textract, AWS Translate
