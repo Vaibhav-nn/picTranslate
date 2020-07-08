@@ -11,9 +11,9 @@ import time
 import webbrowser
 
 def main():
-    st.title("pickLang")
+    st.title("picTranslate")
     '''Hii there! We are happy to help you. '''
-    '''pickLang is an AI based app that enables you to intuitively 
+    '''picTranslate is an AI based app that enables you to intuitively 
        translate the language of the text on your images, so that you can understand your picture completely.'''
     st.subheader('Instructions')
     '''1. Just select the image you want to change the text of.'''
