@@ -53,5 +53,7 @@ NOTE: The Ouput images will get stored in Output Folder and not results folder.
 # Credits
 
 Inpainting paper:  https://arxiv.org/pdf/1901.00212.pdf
+
 Official Inpainting code: https://github.com/knazeri/edge-connect
+
 AWS Textract, AWS Translate
