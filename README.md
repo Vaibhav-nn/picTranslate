@@ -3,6 +3,19 @@ Sometimes we need to translate the text written on the images while keeping the 
 picTranslate is an AI based web app to translate the text on your image from one language to other while keeping the background of the image same as original. 
 Most of the available apps show the translated text of the image in a separate window which degrades the experience and understanding of the user. In this app, the translated text is shown right on the original picture thus maintaining the originality of the scene. 
 
+![Working GIF](./ResultsToShow/Working.gif)
+
+<table>
+  <tr>
+    <td>Input Image</td>
+     <td>HOutput Image/td>
+  </tr>
+  <tr>
+    <td><img src= './ResultsToShow/Rose.jpg' width='480' height= '260' ></td>
+    <td><img src= './ResultsToShow/RoseOut.jpg' width='480' height= '260'></td>
+  </tr>
+ </table>
+
 # Technical stuff of the project
 In this project, I've leveraged advanced Computer Vision based **EdgeConnect Inpainting** method to regenrate the background of the image in order to maintain the overall meaning of the subject. **AWS Textract** is used for OCR and **AWS Translate** is used for Language Translation. **Streamlit** is used to deploy the project in form of webapp, working with which was really exciting.
 
@@ -45,10 +58,6 @@ NOTE: The Ouput images will get stored in Output Folder and not results folder.
 <img src='./ResultsToShow/France.jpg' width='640' height= '480'>
 
 <img src='./ResultsToShow/FranceOut.jpg' width='640' height= '480'>
-
-<img src= './ResultsToShow/Rose.jpg' width='640' height= '480' >
-
-<img src= './ResultsToShow/RoseOut.jpg' width='640' height= '480'>
 
 <img src= './ResultsToShow/Flower.jpg' width='640' height= '480'>
 
