@@ -27,7 +27,7 @@ Now there are two ways to run the program.
 Once ready with credentials, type command **streamlit run app.py** 
 picTranslate will open in your browser!!
 
-<img src='./Streamlit1.png' />
+<img src='./Streamlit3.png' />
 <img src='./Streamlit2.png' />
 
 **Through terminal via main.py:-**
