@@ -34,6 +34,10 @@ pickLang will open in your browser!!
 
 Type command **python main.py --path (Image path) --sl (source language like en/es/it/fr) --tl (target language) --region_name (AWS region name)** for running in terminal only.
 
+For eg.: **python main.py --path ./images/ABC.jpg --sl en --tl it --region_name us-east-2** Here source language is English and Target Language is Italian 
+
+Font characteristics of the written text on the new image can be changed in the **Writer.py** file.
+
 NOTE: The Ouput images will get stored in Output Folder and not results folder.
 
 # Results
