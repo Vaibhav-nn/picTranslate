@@ -46,6 +46,11 @@ NOTE: The Ouput images will get stored in Output Folder and not results folder.
 
 <img src= './ResultsToShow/RoseOut.jpg' width='640' height= '480'>
 
+<img src= './ResultsToShow/Flower.jpg' width='640' height= '480'>
+
+<img src= './ResultsToShow/FlowerOut.jpg' width='640' height= '480'>
+
+
 # Credits
 
 Inpainting paper:  https://arxiv.org/pdf/1901.00212.pdf
