@@ -1,14 +1,10 @@
 # pickLang
-Sometimes we need to translate the text written on the images while keeping the background same. This is generally the case when we are dealing with a foreign language based powerpoint
-presentation or any image with foreign context.
-pickLang is an AI based web app to translate the text from one language to other on your image while keeping the background of the image same as original. 
-Most of the available apps show the translate text of the image in a separate window which degrades the experience and understanding of the user. In this app, the translated text is shown 
-right on the original picture thus maintaining the originality. 
+Sometimes we need to translate the text written on the images while keeping the background same. This is generally the case when we are dealing with a foreign language based powerpoint presentation or any image with foreign context.
+pickLang is an AI based web app to translate the text on your image from one language to other while keeping the background of the image same as original. 
+Most of the available apps show the translated text of the image in a separate window which degrades the experience and understanding of the user. In this app, the translated text is shown right on the original picture thus maintaining the originality of the scene. 
 
 # Technical stuff of the project
-In this project, I've leveraged advanced Computer Vision based **EdgeConnect Inpainting** method to regenrate the background of the image in order to maintain the overall meaning of 
-the subject. **AWS Textract** is used for OCR and **AWS Translate** is used for Language Translation. **Streamlit** is used to deploy the project in form of webapp, working with which 
-was really exciting.
+In this project, I've leveraged advanced Computer Vision based **EdgeConnect Inpainting** method to regenrate the background of the image in order to maintain the overall meaning of the subject. **AWS Textract** is used for OCR and **AWS Translate** is used for Language Translation. **Streamlit** is used to deploy the project in form of webapp, working with which was really exciting.
 
 # Dependencies
 `requirements.txt` should be referred to but some packages that you might miss are:-
@@ -26,7 +22,7 @@ of pretrained model of EdgeConnect and are required while program performs inpai
 
 Now there are two ways to run the program.
 
-Through pickLang streamlit web app:-
+**Through pickLang streamlit web app:-**
 
 Once ready with credentials, type command **streamlit run app.py** 
 pickLang will open in your browser!!
@@ -34,7 +30,7 @@ pickLang will open in your browser!!
 <img src='./Streamlit1.png' />
 <img src='./Streamlit2.png' />
 
-Through terminal via main.py:-
+**Through terminal via main.py:-**
 
 Type command **python main.py --path (Image path) --sl (source language like en/es/it/fr) --tl (target language) --region_name (AWS region name)** for running in terminal only.
 
