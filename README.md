@@ -3,7 +3,7 @@ Sometimes we need to translate the text written on the images while keeping the 
 picTranslate is an AI based web app to translate the text on your image from one language to other while keeping the background of the image same as original. 
 Most of the available apps show the translated text of the image in a separate window which degrades the experience and understanding of the user. In this app, the translated text is shown right on the original picture thus maintaining the originality of the scene. 
 
-![Working GIF](./ResultsToShow/Working.gif)
+<img src= './ResultsToShow/Working.gif' width='720' height= '480' >
 
 <table>
   <tr>
