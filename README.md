@@ -5,7 +5,7 @@ Most of the available apps show the translated text of the image in a separate w
 
 ### App demo
 
-<img src= './ResultsToShow/Working.gif' >
+Click [here](./ResultsToShow/Working.gif) for GIF.
 
 <table>
   <tr>
