@@ -5,7 +5,7 @@ def writer(image,text,coord):
     for crd in coord:
             font = cv2.FONT_HERSHEY_COMPLEX_SMALL
             org = crd 
-            fontScale = 0.85
+            fontScale = 1
             color = (255,255,255)   #White
             thickness = 1
             img = cv2.putText(image, text[i], org, font,  
