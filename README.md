@@ -7,8 +7,8 @@ Most of the available apps show the translated text of the image in a separate w
 
 <table>
   <tr>
-    <td>Input Image</td>
-     <td>HOutput Image/td>
+    <td>Input Image in English</td>
+     <td>Output Image in Italian</td>
   </tr>
   <tr>
     <td><img src= './ResultsToShow/Rose.jpg' width='480' height= '260' ></td>
