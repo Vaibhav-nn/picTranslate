@@ -70,6 +70,8 @@ NOTE: The Ouput images will get stored in Output Folder and not results folder.
 
 # Credits
 
+This project was made possible only under the guidance of [Ramsri Gautham](https://github.com/ramsrigouthamg). 
+
 Inpainting paper:  https://arxiv.org/pdf/1901.00212.pdf
 
 Official Inpainting code: https://github.com/knazeri/edge-connect
