@@ -3,6 +3,8 @@ Sometimes we need to translate the text written on the images while keeping the 
 picTranslate is an AI based web app to translate the text on your image from one language to other while keeping the background of the image preserved. 
 Most of the available apps show the translated text of the image in a separate window which degrades the experience and understanding of the user. In this app, the translated text is shown right on the original picture thus maintaining the originality of the scene. 
 
+Here is my medium blog for better explaination: https://medium.com/@vaibhavtiwarifu/pictranslate-seamless-live-image-text-translator-882bf2cedc29
+
 <img src= './ResultsToShow/Working3.gif' >
 
 # App demo
